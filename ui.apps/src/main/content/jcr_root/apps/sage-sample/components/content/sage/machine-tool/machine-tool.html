@@ -1,0 +1,68 @@
+<div data-sly-use.machinetool="org.kaushik.sage.sagesample.core.models.MachineTool"></div>
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html" data-sly-call="${clientlib.all @ categories='sagesample.machinetool'}"/>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<div class="container-fluid">
+
+	<h1 onclick="machineStatus()">Click to get the latest Machine Status!</h1>
+
+	<div id="machine1div" class="hex">
+	  <img id="machine1img" src="${machinetool.machine1Image1 @ context='uri'}"/>
+	</div>
+	<div class="hex">
+	  <img id="machine2img" src="${machinetool.machine2Image1 @ context='uri'}" />
+	</div>
+	
+	<div class="hex">
+	  <img id="machine3img" src="${machinetool.machine3Image1 @ context='uri'}" />
+	</div>
+	
+	<div id="m1i1" data-server-property="${machinetool.machine1Image1 @ context='uri'}"></div>
+	<div id="m1i2" data-server-property="${machinetool.machine1Image2 @ context='uri'}"></div>
+	<div id="m1i3" data-server-property="${machinetool.machine1Image3 @ context='uri'}"></div>
+	
+	<div id="m2i1" data-server-property="${machinetool.machine2Image1 @ context='uri'}"></div>
+	<div id="m2i2" data-server-property="${machinetool.machine2Image2 @ context='uri'}"></div>
+	<div id="m2i3" data-server-property="${machinetool.machine2Image3 @ context='uri'}"></div>
+	
+	<div id="m3i1" data-server-property="${machinetool.machine3Image1 @ context='uri'}"></div>
+	<div id="m3i2" data-server-property="${machinetool.machine3Image2 @ context='uri'}"></div>
+	<div id="m3i3" data-server-property="${machinetool.machine3Image3 @ context='uri'}"></div>
+			
+	<h1 style="text-align: left;">Machine 1: 33%, 66%, 100% efficiency levels</h1>
+	<div class="hex">
+	  <img src="${machinetool.machine1Image1 @ context='uri'}"/>
+	</div>
+	<div class="hex">
+	  <img src="${machinetool.machine1Image2 @ context='uri'}" />
+	</div>
+	<div class="hex">
+	  <img src="${machinetool.machine1Image3 @ context='uri'}" />
+	</div>
+	
+	<h1 style="text-align: left;">Machine 2: 33%, 66%, 100% efficiency levels</h1>
+	<div class="hex">
+	  <img src="${machinetool.machine2Image1 @ context='uri'}" />
+	</div>
+	<div class="hex">
+	  <img src="${machinetool.machine2Image2 @ context='uri'}" />
+	</div>
+	<div class="hex">
+	  <img src="${machinetool.machine2Image3 @ context='uri'}" />
+	</div>
+	
+	<h1 style="text-align: left;">Machine 3: 33%, 66%, 100% efficiency levels</h1>
+	<div class="hex">
+	  <img src="${machinetool.machine3Image1 @ context='uri'}" />
+	</div>
+	<div class="hex">
+	  <img src="${machinetool.machine3Image2 @ context='uri'}" />
+	</div>
+	<div class="hex">
+	  <img src="${machinetool.machine3Image3 @ context='uri'}" />
+	</div>
+</div>
+

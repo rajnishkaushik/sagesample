@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/foundation/container">
+        <layout
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="granite/ui/components/foundation/layouts/fixedcolumns"/>
+        <items jcr:primaryType="nt:unstructured">
+            <column
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/foundation/container">
+                <items jcr:primaryType="nt:unstructured">
+                    <fieldset
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/foundation/form/fieldset">
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/foundation/layouts/fixedcolumns"/>
+                        <items jcr:primaryType="nt:unstructured">
+                            <column
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/container">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <machine-1
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/foundation/heading"
+                                        class="coral-Heading coral-Heading--2"
+                                        level="{Long}3"
+                                        text="Machine - 1"/>
+                                    <machine-1-image-1
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+                                        fieldLabel="Progress at 33% Image"
+                                        name="./machine1image1"/>
+                                    <machine-1-image-2
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+                                        fieldLabel="Progress at 67% Image"
+                                        name="./machine1image2"/>
+                                    <machine-1-image-3
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+                                        fieldLabel="Progress at 100% Image"
+                                        name="./machine1image3"/>
+                                    <machine-2
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/foundation/heading"
+                                        class="coral-Heading coral-Heading--2"
+                                        level="{Long}3"
+                                        text="Machine - 2"/>
+                                    <machine-2-image-1
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+                                        fieldLabel="Progress at 33% Image"
+                                        name="./machine2image1"/>
+                                    <machine-2-image-2
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+                                        fieldLabel="Progress at 67% Image"
+                                        name="./machine2image2"/>
+                                    <machine-2-image-3
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+                                        fieldLabel="Progress at 100% Image"
+                                        name="./machine2image3"/>
+                                    <machine-3
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/foundation/heading"
+                                        class="coral-Heading coral-Heading--2"
+                                        level="{Long}3"
+                                        text="Machine - 3"/>
+                                    <machine-3-image-1
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+                                        fieldLabel="Progress at 33% Image"
+                                        name="./machine3image1"/>
+                                    <machine-3-image-2
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+                                        fieldLabel="Progress at 67% Image"
+                                        name="./machine3image2"/>
+                                    <machine-3-image-3
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+                                        fieldLabel="Progress at 100% Image"
+                                        name="./machine3image3"/>
+                                </items>
+                            </column>
+                        </items>
+                    </fieldset>
+                </items>
+            </column>
+        </items>
+    </content>
+</jcr:root>

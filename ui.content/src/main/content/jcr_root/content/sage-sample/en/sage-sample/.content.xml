@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-04-07T03:11:23.290-05:00"
+        cq:lastModifiedBy="admin"
+        cq:tags="[workflow:wcm/translatelanguagecopy,workflow:wcm/translation]"
+        cq:template="/conf/sage-sample/settings/wcm/templates/sage-sample"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Sage Sample"
+        sling:resourceType="sage-sample/components/structure/page">
+        <root jcr:primaryType="nt:unstructured">
+            <responsivegrid
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <machine_tool
+                    jcr:created="{Date}2019-04-06T13:36:15.867-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-04-07T03:04:29.302-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="sage-sample/components/content/sage/machine-tool"
+                    bgimage="/content/dam/we-retail/en/products/apparel/coats/El Gordo Red.jpg"
+                    bgstyle="image"
+                    fontsize="60"
+                    machine1image1="/content/dam/we-retail/en/activities/skiing/freeride.jpg"
+                    machine1image2="/content/dam/we-retail/en/activities/skiing/climber-ferrata-la-torre-di-toblin.jpg"
+                    machine1image3="/content/dam/we-retail/en/activities/skiing/skiing_2.jpg"
+                    machine2image1="/content/dam/we-retail/en/activities/biking/mountain-biking.jpg"
+                    machine2image2="/content/dam/we-retail/en/activities/biking/cycling_2.jpg"
+                    machine2image3="/content/dam/we-retail/en/activities/biking/forest-trail.jpg"
+                    machine3image1="/content/dam/we-retail/en/activities/water-sports/swimming_1.jpg"
+                    machine3image2="/content/dam/we-retail/en/activities/hiking/hiking_1.jpg"
+                    machine3image3="/content/dam/we-retail/en/activities/water-sports/swimming_3.jpg"
+                    position="left"/>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>
